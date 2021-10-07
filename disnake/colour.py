@@ -326,6 +326,20 @@ class Colour:
         .. versionadded:: 2.0
         """
         return cls(0xFEE75C)
+    
+    @classmethod
+    def neon_red(cls: Type[CT]) -> CT:
+        """
+        A factory method that returns a :class:`Colour` with a value of ``0xC75B99``.
+        """
+        return cls(0xC75B99)
+
+    @classmethod
+    def bright_turquoise(cls: Type[CT]) -> CT:
+        """
+        A factory method that returns a :class:`Colour` with a value of ``0x00FFC8``.
+        """
+        return cls(0x00FFC8)
 
 
 Color = Colour
